@@ -4,7 +4,7 @@ import java.util.Scanner;
 //대소문자변환
 public class Main1 {
     public String solution(String str){
-        String answer = "";
+        String answer = ""; //결과를 저장할 문자열 answer를 선언합니다.
         for (char x : str.toCharArray()) {
             if(Character.isLowerCase(x)) answer+=Character.toUpperCase(x);
             else answer+=Character.toLowerCase(x);
